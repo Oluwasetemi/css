@@ -76,11 +76,11 @@ tr:nth-child(2n+1) {}
 
 /* pseudo element */
 ::before {
-  content: '&';
+  /* content: '&'; */
   font-size: 4rem;
 }
 ::after {
-  content: '>';
+  /* content: '>'; */
   font-size: 4rem;
 }
 li::marker {
@@ -116,4 +116,40 @@ div ~ p {
 /* compound selectors comma*/
 p, div, strong, em {
   /* style rule  */
+}
+
+* {
+  /* padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px; */
+
+  /* padding: 2px;
+
+  padding-block: 2px;
+  padding-inline: 2px; */
+}
+
+main h1 {
+  /* border: 2px solid; */
+  /* border-inline-start: 10px solid; */
+  border: 1px solid black;
+  color: red;
+  /* padding: 16px 24px; */
+  /* padding-block: 16px; */
+  /* padding-top: 16px;
+  padding-bottom: 16px; */
+  /* margin-block-start: 16px; */
+
+  /* padding-block-start: 16px;
+  padding-block-end: 16px; */
+  padding-inline: 24px;
+
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: red; */
+}
+
+nav {
+  margin-block-end: 16px;
 }
