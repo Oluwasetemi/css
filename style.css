@@ -9,7 +9,7 @@ p:nth-child() {
 }
 
 aside > p { /* 001 + 001 */
-
+  color: green;
 }
 
 p#vscode {}
