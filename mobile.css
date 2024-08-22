@@ -1,0 +1,15 @@
+div {
+  color: green;
+}
+
+
+/* @media (min-width: 375px) and (max-width: 767px) {
+  .large-screens {
+    display: block;
+    color: red;
+  }
+  .small-screens {
+    display: none;
+    color: green;
+  }
+} */

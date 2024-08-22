@@ -1,0 +1,13 @@
+/* complex selectors */
+/* descendant */
+/*
+<div id="first_css">
+  <section>
+    <p>First CSS</p>
+  </section>
+</div>
+
+*/
+#first_css p {
+  color: red;
+}
